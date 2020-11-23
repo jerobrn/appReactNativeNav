@@ -7,7 +7,10 @@ export class HomeScreen extends Component {
     render(){
         return(
             <View style={styles.container}>
-                <Text>This is the home screen</Text>
+                <Text style={styles.Text}>Bienvenido! </Text>
+                <Text style={styles.Text}>    Seleccioná del menú la opción buscar, ingresá el nombre de la banda y el tema para obtener la letra completa.
+                </Text>
+                
                 <StatusBar style="auto" />
             </View>
         );
@@ -23,4 +26,12 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
     },
+    Text:{
+
+        fontFamily:"Arial",
+        fontSize: 25,
+        padding: 20,
+        textAlign: 'center',
+       
+    }
   });

@@ -4,9 +4,9 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 
 // Screens
 import {HomeScreen} from "../Screens/HomeScreen";
-import {InfoScreen} from "../Screens/InfoScreen";
+import ObtenerLetra from "../Screens/ObtenerLetra";
 import {DrawerContentScreen} from "../Screens/DrawerContentScreen";
-console.log(HomeScreen, InfoScreen);
+console.log(HomeScreen, ObtenerLetra);
 
 const Drawer = createDrawerNavigator();
 
@@ -20,7 +20,7 @@ export class DrawerCustomNavigator extends Component {
                 drawerContent={props => <DrawerContentScreen {...props}/>}
             >
                 <Drawer.Screen name="Home" component={HomeScreen} />
-                <Drawer.Screen name="Info" component={InfoScreen} />
+                <Drawer.Screen name="ObtenerLetra" component={ObtenerLetra} />
             </Drawer.Navigator>
         );
     }
