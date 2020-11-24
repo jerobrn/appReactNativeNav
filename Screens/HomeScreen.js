@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     },
     Text:{
 
-        fontFamily:"Arial",
+        
         fontSize: 25,
         padding: 20,
         textAlign: 'center',

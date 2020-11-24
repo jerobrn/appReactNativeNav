@@ -10,14 +10,15 @@ export class DrawerContentScreen extends Component {
     }
 
     handlerLogout(){
-        console.log("Logout");
+     // this.props.onLogout();
+       console.log("logout");
     }
 
     render(){
 
         return(
             <View style={styles.container}>
-                <DrawerContentScrollView {...this.props}>
+                <DrawerContentScrollView {...this.props} >
                     <View style={styles.topDrawer}>
                         <DrawerItem 
                             icon={() => <Icon type="material-community" name="home-outline" style={styles.icon}/>}

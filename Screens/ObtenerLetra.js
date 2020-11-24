@@ -134,7 +134,7 @@ textIn:{
 },
 
 titleText: {
-  fontFamily:"Arial",
+  
   fontSize: 25,
   padding: 20,
   textAlign: 'center',
